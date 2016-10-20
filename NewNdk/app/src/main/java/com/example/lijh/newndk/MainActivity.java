@@ -9,7 +9,9 @@ public class MainActivity extends Activity {
     private TextView mTextView;
 
     static {
+
         System.loadLibrary("newndk");
+        
     }
 
     public native String hello();
